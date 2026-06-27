@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kajal Rajput | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+position:fixed;
+width:100%;
+background:#111827;
+z-index:100;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:0 8%;
+}
+
+.hero-content{
+max-width:650px;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.hero h2{
+font-size:30px;
+color:#38bdf8;
+margin-bottom:20px;
+}
+
+.hero p{
+line-height:1.8;
+margin-bottom:30px;
+color:#d1d5db;
+}
+
+.btn{
+padding:14px 30px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0ea5e9;
+}
+
+section{
+padding:100px 8%;
+}
+
+.title{
+font-size:40px;
+margin-bottom:40px;
+text-align:center;
+color:#38bdf8;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:25px;
+text-align:center;
+border-radius:12px;
+transition:.3s;
+}
+
+.skill:hover{
+transform:translateY(-10px);
+background:#0ea5e9;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.project{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+}
+
+.project h3{
+margin-bottom:15px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:10px;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Kajal.</div>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Hello, I'm Kajal Rajput</h1>
+
+<h2>Linux & AWS Enthusiast</h2>
+
+<p>
+
+I'm passionate about Linux Administration, AWS Cloud, SQL, and Technical Support.
+Currently building my technical skills and looking for opportunities as a Linux Administrator.
+
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800" alt="Profile">
+
+<div>
+
+<h3>Hello!</h3>
+
+<br>
+
+<p>
+
+I have experience in customer support and I'm currently transitioning into IT Infrastructure and Linux Administration.
+
+I enjoy learning new technologies, solving technical issues, and working with Linux servers.
+
+My goal is to become a skilled Linux & Cloud Engineer.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+
+<div class="skill">AWS</div>
+
+<div class="skill">SQL</div>
+
+<div class="skill">Bash Scripting</div>
+
+<div class="skill">Networking</div>
+
+<div class="skill">Git & GitHub</div>
+
+<div class="skill">Customer Support</div>
+
+<div class="skill">Problem Solving</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<h3>Linux Server Setup</h3>
+
+<p>
+
+Configured users, permissions, SSH, Apache, and basic Linux administration.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>AWS EC2 Deployment</h3>
+
+<p>
+
+Launched EC2 instances, configured security groups, connected using SSH.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>SQL Database Project</h3>
+
+<p>
+
+Created databases, tables, joins, queries, and reports.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📧 Email: youremail@gmail.com</p>
+
+<p>📱 Phone: +91 XXXXX XXXXX</p>
+
+<p>💼 LinkedIn: linkedin.com/in/yourprofile</p>
+
+<p>💻 GitHub: github.com/yourusername</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Kajal Rajput | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
